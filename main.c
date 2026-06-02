@@ -1,8 +1,14 @@
-#include<stdio.h>
-main() {
+#include <stdio.h>
 
-         biggest();
-         factorial();
-         reverse();
+void biggest();
+void factorial();
+void reverse();
+
+int main()
+{
+    biggest();
+    factorial();
+    reverse();
+
+    return 0;
 }
-
